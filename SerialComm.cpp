@@ -8,7 +8,6 @@ SerialComm::SerialComm(long baud_rate=9600, long serial_time_out=500)
    data_to_send="";
 }
 
-
 void SerialComm::send_data_frame(){
   for (int i=0;i<data_to_send.length();i++){
       Serial.write(data_to_send[i]);
