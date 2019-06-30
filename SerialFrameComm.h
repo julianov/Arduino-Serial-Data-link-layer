@@ -1,6 +1,8 @@
 /*
   SerialComm.h - Library to send and receive strings of characters.
-  Created by Julián Ariel Oviedo, June 23, 2019.
+  Created by Julián Ariel Oviedo,
+             Saverio Carnevale. 
+  June 23, 2019.
   Released into the public domain.
 */
 
