@@ -16,8 +16,8 @@ void SerialComm::send_data_frame(){
 
 bool SerialComm::get_data_frame()
 {
-    data_received=""; 
-    while (Serial.available() > 0) {
+  data_received=""; 
+  while (Serial.available() > 0) {
       data_received+=Serial.readString();}
   if (data_received!="")
     return true;
