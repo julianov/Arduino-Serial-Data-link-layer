@@ -7,7 +7,7 @@ June 23, 2019.
 **Released into the public domain.
 
 *****************************************************************************************************
-* synchronization *   Source Address   *  Destination Address  *        Data        *   Check Sum   *
+ synchronization *   Source Address   *  Destination Address  *        Data        *   Check Sum   *
 *****************************************************************************************************
       1 byte        2 byte (integer)       2 byte (integer)       2 byte (integer)        2 byte 
       
