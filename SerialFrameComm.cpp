@@ -10,8 +10,8 @@ SerialFrameComm::SerialFrameComm(int address=0, long baud_rate=9600, long serial
 }
 
 void SerialFrameComm::post(int data, int destination){
-  String sincro;                                                                    //
-  sincro="o";                                                                              //defino caracteres para soncronizacion de la trama
+  String sincro;                                                                    
+  sincro="o";                      
 
   int sum=host+destination+data; 
   
@@ -28,7 +28,6 @@ void SerialFrameComm::post(int data, int destination){
   driver->data_to_send=sincro+host_h+host_l+destination_h+destination_l+data_h+data_l+sum_h+sum_l;
 
   driver->send_data_frame();
-
 }
 
 int SerialFrameComm::get_data (){
